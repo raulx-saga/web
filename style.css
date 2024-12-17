@@ -1,0 +1,251 @@
+@font-face {
+    font-family:gugi ;
+    src: url(Gugi-Regular.ttf);
+}
+
+@font-face {
+    font-family:batman ;
+    src: url(batman.ttf);
+}
+
+@font-face {
+    font-family:gugi ;
+    src: url(Gugi-Regular.ttf);
+}
+
+@font-face {
+    font-family:mons ;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family:roboto ;
+    src: url(Roboto-Regular.ttf);
+}
+
+*{  
+    background-color:#1e1e1e;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width:90%;
+    background-color:#1e1e1e;
+    display:flex;
+    justify-content:space-between;
+    margin: auto;
+    font-family: gugi;
+    font-size: 1rem;
+    color:white;
+    align-items:center;
+}
+
+img{
+    width:2rem;
+    height:2rem;
+}
+
+
+
+#nav{
+    width:70vh;
+    height: 1rem;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.endrule{
+    border:0.1px, solid , white;
+    height: 0%;
+}
+
+.main{
+    height:200vh;
+    
+    background-image: 
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-1.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-2.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-3.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-4.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-5.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-6.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-7.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-8.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-9.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-10.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-11.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-12.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-13.png),              
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-14.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-15.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-16.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-17.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-18.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-19.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-20.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-21.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-22.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3-23.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3@2x.png),
+    url(bg/WhatsApp\ Image\ 2024-12-09\ at\ 15.29.04_9774bfd7\ 3@3x.png)
+}
+
+.mlogo{
+    font-family: batman;
+    font-size:10vh;
+    height:18vh ;
+    
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: #D4BC3F;
+    background-color: transparent;
+}
+
+.tagline{
+    font-family: montserrat, bold;
+    font-style: bolder;
+    text-align: center;
+    color: #c7c7c6;
+    font-size: 30px;
+    height:30px;
+    width:100%;
+    margin:10px auto;
+    text-transform: uppercase;
+    background-color: transparent;
+    border:0px;
+    margin:0px;
+    }
+
+
+.allgames{
+    display: flex;
+    background-color: transparent;
+}    
+
+.games{
+    width:100%;
+    height:95vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+}
+
+.tgames{
+    width:100%;
+    height:75vh;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    
+}
+
+
+.race{
+    clip-path: polygon(100% 0, 100% 71%, 83% 87%, 0 87%, 0 0);
+    background-color: #18212A;
+    width:40vh;
+    height:40vh;
+    border:1px solid white;
+    margin:0.5px white solid;
+    
+}    
+
+.line{
+    clip-path: polygon(100% 0, 100% 71%, 83% 87%, 0 87%, 0 0);
+    background-color: #18212A;
+    width:40vh;
+    height:40vh;
+    outline: 1vh solid rgb(255, 255, 255);
+    margin-bottom:15vh ;
+    
+}    
+
+
+.war{
+    clip-path: polygon(100% 0, 100% 71%, 83% 87%, 0 87%, 0 0);
+    background-color: #18212A;
+    width:40vh;
+    height:40vh;
+    border:1px solid white;
+    margin:0.5px white solid;
+    
+
+}    
+
+.sight{
+    clip-path: polygon(100% 0, 100% 71%, 83% 87%, 0 87%, 0 0);
+    background-color: #18212A;
+    width:40vh;
+    height:40vh;
+    border:1px solid white;
+    margin:0.5px white solid;
+    
+}    
+
+.soccer{
+    clip-path: polygon(100% 0, 100% 71%, 83% 87%, 0 87%, 0 0);
+    background-color: #18212A;
+    width:40vh;
+    height:40vh;
+    outline: 1vh solid rgb(255, 255, 255);
+    
+    
+}    
+
+.cards{
+    
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+div div div img{
+    width: 40vh;
+    height:40vh;
+    background-color: transparent;
+    margin-bottom: -5vh;
+
+    
+}
+
+.cards h2{
+    font-family: mons;
+    color:white;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top:30px;
+    margin-left:10px ;
+    background-color: transparent;
+   
+
+
+
+}
+
+.cards p{
+    color:white;
+    font-family: roboto;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    text-align: justify;
+    background-color: transparent;
+
+}
+
+.cards button{
+    background-color: #c7c7c6;
+    color: black;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0px;
+    margin-top: 50px;
+    margin-left:10px;
+}
